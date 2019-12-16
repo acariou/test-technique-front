@@ -1,0 +1,62 @@
+{
+  "name": "test-technique-front",
+  "version": "1.0.0",
+  "description": "Selon votre profil technique, vous utiliserez ReactJS ou React Native.   L'utilisation de Redux est un plus dans le cas du poste de dev Junior.",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.7.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.1.2",
+    "fibers": "^4.0.2",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-loader-spinner": "^3.1.5",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.23.7",
+    "typeface-roboto": "0.0.75",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acariou/test-technique-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acariou/test-technique-front/issues"
+  },
+  "homepage": "https://github.com/acariou/test-technique-front#readme"
+}

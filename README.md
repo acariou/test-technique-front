@@ -6,6 +6,8 @@ L'utilisation de Redux est un plus dans le cas du poste de dev Junior.
 __Objectif__ : Utiliser l'API Movie Database, afin de réaliser une interface utilisateur.  
 https://developers.themoviedb.org/3/getting-started/introduction
 
+API Key : da9b3d39390714e9874f9cf0d7db5257
+
 Votre rendu final devra comprendre :
 
 # Si vous postulez pour le poste de dev Junior:
