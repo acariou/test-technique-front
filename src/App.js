@@ -1,16 +1,14 @@
-import './App.css';
-import logo from './logo.svg';
-
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Movies from './containers/Movies';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div>
+        <header>
+          <Header />
         </header>
         <Route path='/' name='Movies' component={ Movies }/>
       </div>

@@ -19,10 +19,7 @@ class Movies extends Component {
     }
 
     render() {
-        // console.log(this.props.movies);
         const { listMovies: { isPending, movies: { results } } } = this.props;
-        // const classes = useStyles();
-        console.log('Datas : ', results);
 
         return (
             <Container fixed>
