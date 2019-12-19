@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Movies from './containers/Movies';
+import Movie from './containers/Movie';
 import Header from './components/Header';
 
 function App() {
@@ -10,7 +11,14 @@ function App() {
         <header>
           <Header />
         </header>
-        <Route path='/' name='Movies' component={ Movies }/>
+        <Switch>
+          <Route path='/movie/:ref'>
+            <Movie />
+          </Route>
+          <Route path='/'>
+            <Movies />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );

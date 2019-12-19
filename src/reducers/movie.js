@@ -1,11 +1,11 @@
 import { 
     PENDING,
-    RECEIVE_MOVIES, 
-    FETCH_MOVIES } from '../constants/ActionTypes';
+    RECEIVE_MOVIE,
+    GET_MOVIE } from '../constants/ActionTypes';
 
 const initialState = {
     isPending: false,
-    movies: {}
+    detail: {}
 };
 
 export default function moviesReducer(state = initialState, action) {
@@ -13,10 +13,10 @@ export default function moviesReducer(state = initialState, action) {
         case PENDING: {
             return Object.assign({}, state, action);
         }
-        case RECEIVE_MOVIES: {
+        case RECEIVE_MOVIE: {
             return Object.assign({}, state, action);
         }
-        case FETCH_MOVIES: {
+        case GET_MOVIE: {
             return Object.assign({}, state, action);
         }
         default:
